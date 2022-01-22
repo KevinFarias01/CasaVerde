@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@900&family=Montserrat:wght@400;700&display=swap');
+
+/*
+font-family: 'Elsie Swash Caps', cursive;
+font-family: 'Montserrat', sans-serif;
+*/
+
+amarelo{color: rgba(255, 203, 71, 1);}
+preto{color: rgba(32, 32, 32, 1);}
+cinza{color: rgba(144, 144, 144, 1);}
+branco{color: rgba(255, 255, 255, 1);}
+
+
+h1{
+    font-family: 'Elsie Swash Caps', cursive;
+}
