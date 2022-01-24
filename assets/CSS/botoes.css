@@ -1,14 +1,15 @@
+@import url(_variaveis.css);
 .botao{
-    background-color: rgba(255, 203, 71, 1);
+    background-color: var(--amarelo);
     text-align: center;
-    font-family:'Montserrat', sans-serif;
+    font-family:var(--font-body);
     font-weight: 700;
-    color: #fff;
+    color: var(--branco);
 
     width: 100%;
     padding-top: 1rem;
     padding-bottom: 1rem;
 
-    box-shadow: 10px 10px 30px #FFCB473D;
+    box-shadow: 10px 10px 30px var(--cinza);
     border: none;
 }
