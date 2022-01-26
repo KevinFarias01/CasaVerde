@@ -6,14 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/CSS/base.css">
+    <link rel="stylesheet" href="assets/CSS/cabecalho.css">
     <link rel="stylesheet" href="assets/CSS/style.css">
     <link rel="stylesheet" href="assets/CSS/botoes.css">
     <link rel="stylesheet" href="assets/CSS/input.css">
     <link rel="stylesheet" href="assets/CSS/cartao/cartao.css">
+    <link rel="stylesheet" href="assets/CSS/item.css">
+    <link rel="stylesheet" href="assets/CSS/produto.css">
+    <link rel="stylesheet" href="assets/CSS/videos.css">
     <title>Green House</title>
 </head>
 
 <body>
+    <header class="container cabecalho">
+        <img src="assets/img/logo.png" alt="Logo" class="cabecalho__logo">
+
+        <a href="#" aria-label="Meu Carrinho">
+            <img src="assets/img/icons/carrinho-amarelo.svg" alt="" class="cabecalho__carrinho">
+        </a>
+    </header>
+
     <main class="container">
         <button class="botao">Assinar Newsletter</button>
         <input type="text" class="input input--email input--icone" placeholder="Insira seu e-mail"
@@ -24,7 +36,40 @@
             <h2 class="titulo alinhamento--meio">Como conseguir
                 <span class="titulo--destaque">minha planta</span>
             </h2>
+            <ul class="lista-item">
+                <li class="item">
+                    <span class="item__icone item__icone--cursor"></span>
+                    <p>Escolha suas plantas</p>
+                </li>
+                <li class="item">
+                    <span class="item__icone item__icone--carrinho"></span>
+                    <p>Faça seu pedido</p>
+                </li>
+                <li class="item">
+                    <span class="item__icone item__icone--caminhao"></span>
+                    <p>Aguarde na sua casa</p>
+                </li>
+            </ul>
         </article>
+
+        <article class="produto">
+            <img src="assets/img/produtos/produto-01.png" alt="foto do produto" class="produto__imagem">
+            <div class="produto__conteudo">
+                <h3 class="produto__titulo titulo--destaque">Ajuga reptans</h3>
+                <p class="produto__preco">R$ 20,00</p>
+                <a href="#" class="produto__comprar">Comprar<span class="produto__comprar--icone">
+
+                    </span></a>
+            </div>
+        </article>
+
+        <article class="cartao-de-video">
+            <div class="cartao-de-video__video"><img src="https://picsum.photos/278/252" alt="Banner do vídeo">
+            </div>
+            <h3 class="cartao-de-video__titulo">Vídeo XYZ</h3>
+            <p>Publicado em janeiro de 2022</p>
+        </article>
+
     </main>
 
 </body>
